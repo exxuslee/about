@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Разработчик — MatrixPuzzle / Bitcoin puzzle</title>
+  <meta name="description" content="Общие сведения о разработчике приложения Bitcoin puzzle (MatrixPuzzle).">
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --border: #30363d;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+    section h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: var(--accent);
+    }
+    section p, section ul {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      padding: 0.25rem 0;
+      padding-left: 1rem;
+      position: relative;
+    }
+    li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Разработчик</h1>
+      <p class="subtitle">MatrixPuzzle / Bitcoin puzzle</p>
+    </header>
+
+    <section>
+      <h2>Общие сведения</h2>
+      <p>
+        Разработчик мобильных приложений. Проект <strong>Bitcoin puzzle</strong> (MatrixPuzzle) — игра-головоломка,
+        связанная с механикой сети Bitcoin: ввод приватного ключа через графический интерфейс и расчёт
+        соответствующего адреса. Цель — подобрать ключ к целевому адресу и получить награду.
+      </p>
+    </section>
+
+    <section>
+      <h2>Проекты</h2>
+      <ul>
+        <li><strong>Bitcoin puzzle</strong> — головоломка по подбору приватного ключа к заданному Bitcoin-адресу (Android).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Связь</h2>
+      <p>
+        По вопросам приложения и условий использования обращайтесь через платформу распространения приложения
+        (Google Play и др.).
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2025 Bitcoin puzzle. Все права защищены.</p>
+    </footer>
+  </div>
+</body>
+</html>
